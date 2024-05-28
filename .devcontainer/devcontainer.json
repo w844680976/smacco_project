@@ -1,0 +1,14 @@
+{
+    "name": "SMAC3 Development",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "settings": {
+        "python.pythonPath": "/opt/conda/envs/smac_env/bin/python"
+    },
+    "remoteUser": "root",
+    "postCreateCommand": "pip install -r requirements.txt"
+}
